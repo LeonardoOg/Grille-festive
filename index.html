@@ -9,75 +9,55 @@
 </head>
 
 <body>
-    <a href="#contenu" class="sauter screen-reader-only focusable">Allez au contenu</a>
     <header role="banner" class="entete">
         <div class="conteneur">
-                <h1 class="entete_h1"> Tim Actuel </h1>
-            <h2 class="entete_h2"> Coronavirus : Le changement de vie social </h2>
+                <h1> Tim Actuel </h1>
         </div>
     </header>
-    <main role="main">
-        <section>
-            <div class="conteneur">
-        <picture class="picture__tag">
+    <main class="cards conteneur" role="main">
+        <section class="card1">
+        <h2 class="centre"> Coronavirus : Le changement de vie social </h2>
+        <picture class="conteneur rangee">
             <source media="(max-width: 600px)" srcset="images/bandeau_600.jpg">
             <source media="(min-width: 601px)" srcset="images/bandeau_1200.jpg">
             <img src="images/bandeau_1200.jpg" alt="">
         </picture>
-            </div>
         </section>
-        <section class="corona conteneur rangee" id="corona">
-            <div class="cols_6_de_12">
-                <figure>
+                <figure class="card2">
                     <img src="images/infirmiere_489.jpg" alt="">
                 </figure>
-            </div>
-            <aside class="cols_6_de_12">
-                <h2 id="contenu"> Qu’est que c’est le Corona? </h2>
+            <div class="card3">
+                <h2> Qu’est que c’est le Corona? </h2>
                 <p>Le coronavirus nous aide à apprendre beaucoup de choses. On l'appelle parfois aussi covid-19.
                     Les docteurs disent qu'ils ressemblent à un rhume ou à la grippe. Certaines personnes peuvent tousser,
                     faire de la fièvre ou avoir de la difficulté à respirer.</p>
                 <p>La maladie à coronavirus est une maladie infectieuse causée par un coronavirus nouvellement découvert.</p>
                 <p>La plupart des personnes qui tombent malades avec le COVID-19 présenteront des symptômes légers, mais existe aussi des cas qui sont plus graves.</p>
-            </aside>
+            </div>
             <!-- Fin section corona -->
-        </section>
-        <section class="propagation" id="propagation">
-            <div class="conteneur">
+                <div class="card4">
                 <h2> Comment il se propage? </h2>
-                <div class="rangee">
-                    <article class="cols_6_de_12">
                         <p>Le virus qui cause le COVID-19 est principalement transmis par les gouttelettes générées lorsqu'une personne infectée tousse,
                             éternue ou expire. Ces gouttelettes sont trop lourdes pour être suspendues en l'air et tombent rapidement sur les planchers ou les surfaces.
                         </p>
                         <p>Vous pouvez être infecté en respirant le virus si vous êtes à proximité d'une personne atteinte du COVID-19,
                             ou en touchant une surface contaminée, puis vos yeux, votre nez ou votre bouche.</p>
-                    </article>
+                </div>
+                <div class="card5">
                     <h2> Comment lui éviter ? </h2>
-                    <article class="cols_6_de_12">
                         <p>Vous pouvez prendre des mesures pour vous protéger et prévenir la propagation du virus en vous lavant les mains souvent,
                             en ne touchant pas votre visage, en nettoyant les surfaces touchées fréquemment, en évitant le contact étroit avec des
                             personnes malades et en ayant une bonne hygiène respiratoire.</p>
-                    </article>
                 </div>
-            </div>
             <!-- Fin section propagation -->
-        </section>
-        <section class="lockdown" id="lockdown">
-            <div class="cols_7_de_12">
-                <figure>
-                    <img src="images/lockdown_575.jpg" alt="">
+                <figure class="card6">
+                    <img class="img_1" src="images/lockdown_575.jpg" alt="">
                 </figure>
-                <p>« On est obligés aujourd’hui d’annoncer une espèce de traitement choc pour réduire le nombre de visites dans les maisons.»</p>
-                <figcaption>Une citation de : - François Legault, premier ministre du Québec</figcaption>
-                <p>« Le couvre-feu, il passe un signal, mais aussi il permet de diminuer les activités et les possibilités de contacts qui peuvent continuer à partir d’une certaine heure », a expliqué le Dr Arruda.</p>
-            </div>
-            <div class="cols_5_de_12"></div>
-            <figure>
-                <img src="images/vaccin_400.jpg" alt="">
-                <figcaption> Le vaccin sauve les vies. </figcaption>
-            </figure>
-        </section>
+        <div class="card7">
+                <p>« On est obdivgés aujourd’hui d’annoncer une espèce de traitement choc pour réduire le nombre de visites dans les maisons.»</p>
+                <p>« Le couvre-feu, il passe un signal, mais aussi il permet de diminuer les activités et les possibidivtés de contacts qui peuvent continuer à partir d’une certaine heure », a expdivqué le Dr Arruda.</p>
+                    <figcaption>Une citation de : - François Legault, premier ministre du Québec</figcaption>
+                </div>
     </main>
     <footer role="contentinfo">
         <p class="copyright">&copy; TIM ACTU - Leonardo Coutinho - INTÉGRATION II 2021 CÉGEP ST-FOY </p>
